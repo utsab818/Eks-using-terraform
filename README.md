@@ -12,3 +12,9 @@ aws eks update-kubeconfig --name myapp-eks-cluster --region eu-west-2
 ```
 
 YOU ARE NOW CONNECTED TO EKS FROM YOUR MACHINE
+
+### DO NOT FORGET TO DESTROY THE COMPONENTS AFTER USAGE
+```
+
+terraform destroy
+```
